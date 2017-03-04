@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTTP log monitoring</title>
+  <link rel="stylesheet" href="./frontend/public/css/style.css" />
+  <link rel="stylesheet" href="./frontend/public/css/bootstrap.min.css" />
+</head>
+<body>
+  <nav class="nav-top blur"></nav>
+  <div class="menu hidden-sm hidden-xs"></div>
+  <div id="render-target">
+    <div class="menu-dashboard" class="clearfix">
+      <span>HTTP log monitoring</span>
+    </div>
+    <div class="content">
+        <div class="row">
+          <div class="monitor col-md-6 col-sm-12 col-xs-12">
+            <div class="box">
+              <div class="title">Warning messages</div>
+              <div class="data-container">
+                <div class="data" id="result-warnings">
+                  <span class="no-data">No data yet</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="metrics-1 col-md-6 col-sm-12 col-xs-12">
+            <div class="box">
+              <div class="title">Top traffic last 10 seconds</div>
+              <div class="data data-padding">
+                  <ul class="top-box" id="result-time">
+                    <li class="no-data">No data yet</li>
+                  </ul>
+
+              </div>
+            </div>
+          </div>
+          <div class="metrics-2 col-md-6 col-sm-12 col-xs-12">
+            <div class="box">
+              <div class="title">Top traffic - overall</div>
+              <div class="data data-padding">
+                <ul class="top-box" id="result-overall">
+                  <li class="no-data">No data yet</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        <div>
+    </div>
+  </div>
+
+  <script src="./frontend/public/js/jquery-3.1.1.min.js"></script>
+  <script src="./frontend/public/js/bootstrap.min.js"></script>
+  <script src="./frontend/public/js/main.js"></script>
+</body>
+</html>
