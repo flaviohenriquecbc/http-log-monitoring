@@ -54,3 +54,4 @@ python loggenerator.py /Users/flavio/Desktop/monitor/log/file.log
 * User pagination on the interface modules and allow more registers
 * Use a modern real-time bidirectional event-based communication to alert the frontend that the backend has changed (e.g. when a warning is created on the server to update the screen)
 * Create much more tests
+
